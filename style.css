@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.header {
+    background-image: url(img/28861385-generativo-ai-lindo-gradiente-cena-panorama-com-luz-roxo-digital-lavanda-cor-horizontal-papel-de-parede-abstrato-fundo-com-nuvens-e-horizonte-foto.jpg);
+    padding: 60px;
+    display: flex;
+    justify-content:center;
+    gap: 130px;
+    align-items: center;
+    background-size: 2000px;
+    
+}
+
+.header h1 {
+    font-size: 48px;
+    color: #c26cff;
+    font-family: cursive;
+}
+
+.header p {
+    font-size: 20px;
+    color: #ffa0ff;
+    margin-top: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 90%;
+    border-radius: 30px;
+}
+
+.fotos {
+    display: flex;
+    padding: 40px;
+    background-color: #da9aff;
+    color: #333;
+}
+
+
+.imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    border-radius: 20px;
+}
+
+.photo img{
+    width: 90%;
+    border-radius: 40px;
+}
+.informacoes {
+    flex: 1;
+    padding: 20px;
+    
+}
+
+.informacoes p{
+    font-size: 25px;
+    
+}
+
+.informacoes h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background-color: #fa68fa;
+}
+
+.carreira {
+    display: flex;
+   background-color: #4b0082;
+    padding: 40px;
+    background-size: 2000px;
+    
+}
+
+.carreira .hab {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    margin-left: 200px;
+    font-family: cursive;
+}
+
+.carreira .hab ul{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.carreira1 h2{
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.carreira1 p{
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.projetos {
+    background-color: #da9aff;
+    padding: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projeto {
+    text-align: center;
+    margin: 20px;
+}
+
+.capa {
+    background-color: #ffc0cb;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.capa img{
+    border-radius: 50%;
+    width: 100%;
+    
+}
+
+.capa img:hover{
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #4b0082;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
